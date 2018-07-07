@@ -15,6 +15,7 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		718839C3B26E538EC4C8178B /* Pods_IOSStringUtils_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6706C267A96FD3593F78FA88 /* Pods_IOSStringUtils_Tests.framework */; };
+		CF3DA12A20F0E879006A2F5B /* IOSStringUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF3DA12B20F0E879006A2F5B /* IOSStringUtils.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,11 +43,12 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		626806231EDF43C15A73292A /* Pods-IOSStringUtils_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOSStringUtils_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IOSStringUtils_Tests/Pods-IOSStringUtils_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6706C267A96FD3593F78FA88 /* Pods_IOSStringUtils_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IOSStringUtils_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B55C5E04B9481C247F66329D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		B55C5E04B9481C247F66329D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		CABD34878471080F4FAAAC2C /* Pods_IOSStringUtils_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IOSStringUtils_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D5A54D593C1AC5C050D0D580 /* IOSStringUtils.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = IOSStringUtils.podspec; path = ../IOSStringUtils.podspec; sourceTree = "<group>"; };
+		CF3DA12B20F0E879006A2F5B /* IOSStringUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = IOSStringUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5A54D593C1AC5C050D0D580 /* IOSStringUtils.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = IOSStringUtils.podspec; path = ../IOSStringUtils.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		EC72732D25F1E40E226EFCD4 /* Pods-IOSStringUtils_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOSStringUtils_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-IOSStringUtils_Example/Pods-IOSStringUtils_Example.release.xcconfig"; sourceTree = "<group>"; };
-		F8E1305EFDFF2536A943C6FB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		F8E1305EFDFF2536A943C6FB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF3DA12A20F0E879006A2F5B /* IOSStringUtils.framework in Frameworks */,
 				19F5B09B23AD4956DDAD5B48 /* Pods_IOSStringUtils_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -83,6 +86,7 @@
 		5D44C676BACC03778ECB4E28 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CF3DA12B20F0E879006A2F5B /* IOSStringUtils.framework */,
 				CABD34878471080F4FAAAC2C /* Pods_IOSStringUtils_Example.framework */,
 				6706C267A96FD3593F78FA88 /* Pods_IOSStringUtils_Tests.framework */,
 			);

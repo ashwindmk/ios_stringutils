@@ -1,0 +1,16 @@
+PODS:
+  - IOSStringUtils (0.1.0)
+
+DEPENDENCIES:
+  - IOSStringUtils (from `../`)
+
+EXTERNAL SOURCES:
+  IOSStringUtils:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  IOSStringUtils: 43b75227773cefc47259c4b519ea559473a41d52
+
+PODFILE CHECKSUM: 259afefd8e8719b0d443857f110b7462866c1a2c
+
+COCOAPODS: 1.5.3
