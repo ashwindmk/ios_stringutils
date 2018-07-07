@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'IOSStringUtils_Example' do
+  pod 'IOSStringUtils', :path => '../'
+
+  target 'IOSStringUtils_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
